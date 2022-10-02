@@ -1,0 +1,75 @@
+.FQAs{
+    padding: 2rem 0;
+    margin-top: 7.87rem;
+    color: #000000;
+    width: 100%;
+}
+
+.FQAs p{
+    color: #404040;
+}
+
+.QuestinAnswer{
+    margin-bottom: .8rem;
+}
+
+.Questin{
+    display: flex;
+}
+
+.Questin span{
+    color: #ab6d01;
+    margin-right: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Questin p{
+    margin-bottom: 0;
+}
+
+.Answer span{
+    color: #030303;
+    margin-right: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Answer{
+    margin-left: 23px;
+}
+
+@media screen and (max-width: 767px) {
+    .FQAs{
+        margin-top: 3.7rem;    
+    }
+}
+
+.FQASLoginBtn{
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.FQASLoginBtn .BtnA{
+    outline: none;
+    background-color: #ffa300;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.FQASLoginBtn .BtnA:hover{
+    outline: none;
+    background-color: #ffbf00;
+    border: 1.5px solid #ffbf00;
+    color: rgb(14, 14, 14);
+}

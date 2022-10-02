@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+        <title>JWIN7</title>
+
+        <!-- google fronts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+        <!-- bootstrap file link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <!-- css file links -->
+        <link rel="stylesheet" href="../css/navber.css">
+        <link rel="stylesheet" href="../css/footer.css">
+        <link rel="stylesheet" href="../css/LoginSingin.css">
+    </head>
+
+    <body class="LoginBody">
+        <!-- navber start -->
+        <nav class="navbar navbar-expand-md navbar-light bg-light col-12">
+            <!-- <div class=""> -->
+                <div class="TopNav">
+                    <div class="row container">
+                        <div class="col-4">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+
+                        <div class="col-4 d-flex">
+                            <a class="navbar-brand m-auto" href="../index.html">
+                                <img src="../images/logo.png" alt="logo">
+                            </a>
+                        </div>
+
+                        <div class="col-4 LoginBtn">
+                            <a href="../pages/LoginSingin.html"  class="BtnA float-end">REGISTER | LOGIN</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="BottomNav">
+                    <div class="collapse navbar-collapse container m-auto" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html#WhyAffilates">Why JWIN7 Affiliates?</a>
+                                </li>
+    
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../index.html#COMMISSION">
+                                        Commission
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html#PRODUCTS">Products</a>
+                                </li>
+    
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="../pages/FQAs.html">
+                                        FAQ
+                                    </a>
+                                </li>
+    
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contactus.html">Contact Us</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </nav>
+        <!-- navber end -->
+
+        <!-- contat from start -->
+        <section class="LoginSign">
+            <div class="container col-lg-4 col-md-6 col-sm-8 m-auto">
+
+                <!-- sing in from start -->
+                <form class="needs-validation login-from">
+                    <div class="SingUpTitle">
+                        <h4><span>..</span> Sign In</h4>
+                    </div>
+
+                    <div class="SingIn00 UnderFrom">
+                        <div class="form-group was-validated">
+                            <label for="email">Username</label>
+                            <input class="form-control" type="text" id="user-name" required placeholder="6-18 characters or numbers(Username)*">
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="password">Password*</label>
+                            <input class="form-control" type="password" id="password" required placeholder="6-20 characters or numbers">
+                            <div class="invalid-feedback">
+                                Please enter your password
+                            </div>
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <select class="form-control" type="text" >
+                                <option value="1">English</option>
+                                <option value="2">Bangla</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your currency
+                            </div>
+                        </div>
+    
+                        <div class="text-center BtnDiv">
+                            <div>
+                                <input class="btn-fa sin-bt-fa CencelBtn" type="submit" value="Sing In">
+                            </div>
+                            
+                            <input class="SingUPINSingIN" onclick="fromhideshow()" type="submit" value="Sing Up">
+                            <a class="SingINFrogot" onclick="frogetonclick()">Forgot Password</a>
+                        </div>
+                    </div>
+                </form>
+                <!-- sing in from end -->
+
+                <!-- Forget passowerd from start -->
+                <form class="needs-validation ForgetPassowerdFrom">
+                    <div class="SingIn00 UnderFrom">
+                        <div class="form-group was-validated">
+                            <label for="email">Username</label>
+                            <input class="form-control" type="text" id="user-name" required placeholder="6-18 characters or numbers(Username)*">
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="password">Password*</label>
+                            <input class="form-control" type="password" id="password" required placeholder="6-20 characters or numbers">
+                            <div class="invalid-feedback">
+                                Please enter your password
+                            </div>
+                        </div>
+    
+                        <div class="text-center BtnDiv">
+                            <div>
+                                <input class="btn-fa" type="submit" value="Submit">
+                                <input class="btn-fa sin-bt-fa CencelBtn" onclick="frogetonclick()" type="submit" value="Cancel">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- Forget passowerd from end -->
+
+
+                <!-- sing up from start -->
+                <form class="needs-validation singup-from">
+                    <div class="SingUpTitle">
+                        <h4><span>..</span> Sign Up</h4>
+                    </div>
+
+                    <!-- sing up 01 start -->
+                    <div class="SingUp1 UnderFrom">
+                        <div class="form-group was-validated">
+                            <label for="email">Username</label>
+                            <input class="form-control" type="text" id="user-name" required placeholder="6-18 characters or numbers(Username)*">
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="password">Password*</label>
+                            <input class="form-control" type="password" id="password" required placeholder="6-20 characters or numbers">
+                            <div class="invalid-feedback">
+                                Please enter your password
+                            </div>
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="password">Confirm Password*</label>
+                            <input class="form-control" type="password" id="password" required placeholder="">
+                            <div class="invalid-feedback">
+                                Please enter your password
+                            </div>
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="currency">Currency*</label>
+    
+                            <select class="form-control" type="text" >
+                                <option value="0">BDT - BDT</option>
+                                <option value="1">BDT - BDT</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please enter your currency
+                            </div>
+                        </div>
+    
+                        <div class="text-center BtnDiv">
+                            <input class="btn-fa" onclick="singuponetotow()" type="submit" value="Next">
+                            <input class="btn-fa sin-bt-fa CencelBtn" onclick="fromhideshow()" type="submit" value="Cancel">
+                        </div>
+                    </div>
+                    <!-- sing up 01 end -->
+                    
+                    <!-- sing pu 02 start -->
+                    <div class="SingUp2 UnderFrom">
+                        <div class="form-group was-validated">
+                            <label for="email">First Name *</label>
+                            <input class="form-control" type="text" id="name" required placeholder="">
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="email">Last Name *</label>
+                            <input class="form-control" type="text" id="name" required placeholder="">
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+    
+                        <div class="form-group was-validated">
+                            <label for="password">Date of Birth</label>
+                            <input class="form-control" type="datetime-local" id="date" required placeholder="">
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+    
+                        <div class="text-center BtnDiv">
+                            <input class="btn-fa" onclick="singuponetotow()" type="submit" value="Previous">
+                            <input class="btn-fa" onclick="singuptowtotheree()" type="submit" value="Next">
+                            <input class="btn-fa sin-bt-fa CencelBtn" onclick="fromhideshow()" type="submit" value="Cancel">
+                        </div>
+                    </div>
+                    <!-- sing pu 02 end -->
+                    
+                    <!-- sing pu 03 start -->
+                    <div class="SingUp3 UnderFrom">
+                        <div class="form-group was-validated">
+                            <label for="phone">Phone *</label>
+                            <div class="MobileInput d-flex">
+                                <select class="" type="text" >
+                                    <option value="0">+0018</option>
+                                    <option value="1">+0017</option>
+                                </select>
+                                <input class="form-control" type="number" id="tel" required placeholder="">
+                            </div>
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+
+                        <div class="form-group was-validated">
+                            <label for="email">Email *</label>
+                            <input class="form-control" type="email" id="email" required placeholder="Email *">
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+
+                        <div class="form-group was-validated">
+                            <label for="phone">Others *</label>
+                            <div class="MobileInput d-flex">
+                                <select class="" type="text" >
+                                    <option value="0">DMS</option>
+                                    <option value="1">IMO</option>
+                                    <option value="1">Skype</option>
+                                    <option value="1">What's ap</option>
+                                </select>
+                                <input class="form-control" type="number" id="tel" required placeholder="">
+                            </div>
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Referrer</label>
+                            <input class="form-control" type="referrer" required placeholder="">
+                        </div>
+
+                        <div class="form-group was-validated">
+                            <label for="verification-code">Verification Code *</label>
+                            <input class="form-control" type="verification-code" id="verification-code" required placeholder="">
+                            <div class="invalid-feedback">
+                                This field is required.
+                            </div>
+                        </div>
+    
+                        <div class="text-center BtnDiv">
+                            <input class="btn-fa" onclick="singuptowtotheree()" type="submit" value="Previous">
+                            <input class="btn-fa" type="submit" value="Sing Up">
+                            <input class="btn-fa sin-bt-fa CencelBtn" onclick="fromhideshow()" type="submit" value="Cancel">
+                        </div>
+                    </div>
+                    <!-- sing pu 03 end -->
+                </form>
+                <!-- sing up from end -->
+
+            </div>
+        </section>
+        <!-- contat from start -->
+
+        <!-- footer start -->
+        <footer>
+            <div class="container">
+                <div>
+                    <ul>
+                        <li>
+                            <a href="../pages/Terms-Con.html">Terms and Comdition</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="../index.html"><img src="../images/logo.png" alt=""></a>
+            </div>
+        </footer>
+        <!-- footer end -->
+        
+        <script src="../JavaScipt/LoginSingin.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>
