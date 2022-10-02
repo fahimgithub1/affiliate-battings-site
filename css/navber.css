@@ -41,6 +41,7 @@
         font-weight: 600;
         font-size: 16px;
         text-decoration: none;
+        margin-right: 5px;
     }
 
     .TopNav button{
@@ -74,7 +75,7 @@
     @media screen and (max-width: 767px) {
         .TopNav .BtnA {
             padding: 3px 6px;
-            font-size: 10px;
+            font-size: 9px;
             border-radius: 4px;
         }
 
@@ -107,6 +108,20 @@
     @media screen and (max-width: 352px) {
         .TopNav .BtnA {
             font-size: 8px;
+        }
+    }
+
+    @media screen and (max-width: 372px) {
+        .registation{
+            display: none;
+        }
+
+        .TopNav .BtnA {
+            font-size: 11px;
+        }
+
+        .LoginBtn {
+            margin-top: 18px;
         }
     }
 /* top navber end*/
