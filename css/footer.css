@@ -28,7 +28,7 @@ footer div ul,
 footer div ul li{
    margin: 0;
    padding: 0;
-   width: 157px;
+   /* width: 157px; */
    text-align: center;
    margin: auto;
 }
