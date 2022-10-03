@@ -201,6 +201,7 @@
 .COMMISSION .h3Div{
     width: 250px;
     margin: auto;
+    margin-bottom: 1.5rem !important; 
 }
 
 .COMMISSION h3{
@@ -251,6 +252,7 @@
     background-color: #ffa300;
     padding: 10px 20px;
     color: rgb(14, 14, 14);
+    margin-bottom: 0.8rem;
 }
 
 .PRODUCTS img{
@@ -288,6 +290,7 @@
     padding-top: 1rem;
     text-align: center;
     text-decoration: none;
+    padding-top: 1.7rem;
 }
 
 .PRODUCTS .BtnA{
@@ -311,7 +314,7 @@
 
 @media screen and (max-width: 767px) {
     .PRODUCTS img{
-        height: 200px;
+        height: 150px;
     }
 }
 /* PRODUCTS end */

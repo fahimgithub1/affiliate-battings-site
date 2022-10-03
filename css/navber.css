@@ -72,6 +72,11 @@
         margin-top: 19px;
     }
 
+    .navbar-toggler:focus{
+        box-shadow: none;
+        border: 1px solid black;
+    }
+
     @media screen and (max-width: 767px) {
         .TopNav .BtnA {
             padding: 3px 6px;
@@ -84,9 +89,7 @@
         }
 
         .navbar-toggler {
-            color: rgba(0,0,0,.55);
-            border-color: rgba(0,0,0,.1);
-            margin-top: 11px;
+            margin-top: 8px !important;
         }
 
         .navbar-toggler-icon {
@@ -163,6 +166,10 @@
     @media screen and (max-width: 767px) {
         .BottomNav .container ul li:not(:last-child) {
             border: none;
+        }
+
+        .BottomNav{
+            padding-bottom: 0.1rem;
         }
     }
 /* bottom navber end*/

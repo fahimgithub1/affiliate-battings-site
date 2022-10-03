@@ -30,6 +30,12 @@
     opacity: 1 !important;
 }
 
+@media screen and (max-width: 767px) {
+    .carousel-indicators [data-bs-target]{
+        display: none;
+    }
+}
+
 .carousel-control-prev span, .carousel-control-next span{
     background-color: #574a35;
     border-radius: 50%;

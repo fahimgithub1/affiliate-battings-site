@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 767px) {
     .TremsCondition{
-        margin-top: 3.7rem;    
+        margin-top: 3.7rem; 
+        padding-right: 12px;   
     }
 }
 
