@@ -9,6 +9,10 @@
     color: #404040;
 }
 
+.QuestinANswarMain{
+    padding: 0 8px;
+}
+
 .QuestinAnswer{
     margin-bottom: .8rem;
 }

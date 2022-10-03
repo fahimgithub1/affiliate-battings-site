@@ -59,6 +59,8 @@ textarea:focus{
 @media screen and (max-width: 767px) {
     .ContactFrom{
         margin-top: 4.5rem;
+        padding-left: 12px;
+        padding-right: 12px;
     }
 }
 

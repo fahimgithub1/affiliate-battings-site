@@ -3,7 +3,7 @@
 }
 
 .carousel-item img{
-    height: 85vh;
+    height: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -13,10 +13,6 @@
 
     .carousel{
         margin-top: 3.7rem;    
-    }
-
-    .carousel-item img{
-        height: 65vh;
     }
 }
 
