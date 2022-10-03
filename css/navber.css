@@ -79,13 +79,13 @@
 
     @media screen and (max-width: 767px) {
         .TopNav .BtnA {
-            padding: 3px 6px;
+            padding: 8px 6px;
             font-size: 9px;
             border-radius: 4px;
         }
 
         .LoginBtn {
-            margin-top: 20px;
+            margin-top: 15px;
         }
 
         .navbar-toggler {
