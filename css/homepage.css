@@ -166,8 +166,7 @@
 
 /* FQAs page start */
 .FQAs{
-    padding: 2rem 0;
-    margin-top: 7.87rem;
+    padding: 2rem 16px;
     color: #000000;
     width: 100%;
 }
@@ -212,12 +211,6 @@
     margin-left: 23px;
 }
 
-@media screen and (max-width: 767px) {
-    .FQAs{
-        margin-top: 3.7rem;    
-    }
-}
-
 .FQASLoginBtn{
     width: 90%;
     margin: auto;
@@ -248,10 +241,15 @@
 
 /* contact us page start */
 .ContactFrom{
-    padding: 2rem 0;
-    margin-top: 8.87rem;
+    padding: 2rem 15px;
     color: #000000;
     width: 100%;
+    background: #efeaea;
+}
+
+.ContactFrom h3{
+    color: #ffa300;
+    margin-bottom: 1rem;
 }
 
 .ContactFrom form{
@@ -260,7 +258,7 @@
     box-shadow: 0 0 10px #b7b7b7;
     border-radius: 12px;
     padding-top: 2.2rem;
-    /* background-color: #f1f1f1; */
+    margin-bottom: 1rem !important;
 }
 
 .ContactFrom input{
@@ -303,15 +301,7 @@ textarea:focus{
 .BtnFa:hover{
     background-color: #070707;
     color: white;
-}    
-
-@media screen and (max-width: 767px) {
-    .ContactFrom{
-        margin-top: 4.5rem;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
+} 
 
 @media screen and (max-width: 991px) {
     .nav-link{
