@@ -22,6 +22,10 @@
 /* COMMISSION start */
 .COMMISSION{
     padding: 2rem 0;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
 }
 
 .COMMISSION .container{
@@ -34,13 +38,14 @@
     margin: auto;
     margin-bottom: 1.5rem !important; 
 }
-
+/* 
 .COMMISSION ul{
     list-style: disc;
-}
+} */
 
 .COMMISSION ul li{
     margin-bottom: .5rem;
+    color: #000000;
 }
 
 .COMMISSION h3{
@@ -157,3 +162,762 @@
     }
 }
 /* PRODUCTS end */
+
+
+/* FQAs page start */
+.FQAs{
+    padding: 2rem 0;
+    margin-top: 7.87rem;
+    color: #000000;
+    width: 100%;
+}
+
+.FQAs p{
+    color: #404040;
+}
+
+.QuestinANswarMain{
+    padding: 0 8px;
+}
+
+.QuestinAnswer{
+    margin-bottom: .8rem;
+}
+
+.Questin{
+    display: flex;
+}
+
+.Questin span{
+    color: #ab6d01;
+    margin-right: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Questin p{
+    margin-bottom: 0;
+}
+
+.Answer span{
+    color: #030303;
+    margin-right: 0.8rem;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.Answer{
+    margin-left: 23px;
+}
+
+@media screen and (max-width: 767px) {
+    .FQAs{
+        margin-top: 3.7rem;    
+    }
+}
+
+.FQASLoginBtn{
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.FQASLoginBtn .BtnA{
+    outline: none;
+    background-color: #ffa300;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.FQASLoginBtn .BtnA:hover{
+    outline: none;
+    background-color: #ffbf00;
+    border: 1.5px solid #ffbf00;
+    color: rgb(14, 14, 14);
+}
+/* FQAs page end */
+
+/* contact us page start */
+.ContactFrom{
+    padding: 2rem 0;
+    margin-top: 8.87rem;
+    color: #000000;
+    width: 100%;
+}
+
+.ContactFrom form{
+    padding: 0rem 1rem;
+    padding: 1rem 1rem;
+    box-shadow: 0 0 10px #b7b7b7;
+    border-radius: 12px;
+    padding-top: 2.2rem;
+    /* background-color: #f1f1f1; */
+}
+
+.ContactFrom input{
+    margin-bottom: 1rem;
+}
+
+textarea{
+    width: 100%;
+    height: 150px;    
+    border: 1px solid #ced4da;
+    color:  #686868;
+    border-radius: 5px;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+textarea:focus{   
+    outline: none;
+    border: 1px solid #ced4da;
+    box-shadow: 0 0 5px rgb(12, 77, 121);
+    border-radius: 5px;
+}
+
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.submit{
+    margin-top: .5rem;
+}
+
+.BtnFa{
+    background-color: #313131;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.BtnFa:hover{
+    background-color: #070707;
+    color: white;
+}    
+
+@media screen and (max-width: 767px) {
+    .ContactFrom{
+        margin-top: 4.5rem;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link{
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+}
+
+.LoginBtnContactUS{
+    width: 90%;
+    margin: auto;
+    padding-top: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.LoginBtnContactUS .BtnA{
+    outline: none;
+    background-color: #ffa300;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+} 
+
+.LoginBtnContactUS .BtnA:hover{
+    outline: none;
+    background-color: #ffbf00;
+    border: 1.5px solid #ffbf00;
+    color: rgb(14, 14, 14);
+}
+/* contact us page end */
+
+/* T&C page start */
+.TremsCondition{
+    padding: 2rem 0;
+    margin-top: 7.87rem;
+    color: #000000;
+    width: 100%;
+    text-align: justify;
+}
+
+@media screen and (max-width: 767px) {
+    .TremsCondition{
+        margin-top: 3.7rem; 
+        padding-right: 12px;   
+    }
+}
+
+.TremsCondition .container h3{
+    margin-bottom: 1rem;
+    /* font-size: 22px!important; */
+}
+
+.TremsCondition .container p{
+    margin-bottom: .6rem;
+    line-height: 1.5;
+    margin-left: 1rem  ;
+}
+
+ol li span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+ol li {
+    margin: 1rem 0;
+}
+
+ol li ol li span{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+ol li ol li {
+    margin: .7rem 0;
+}
+
+ol li ol li ol li {
+    margin: .5rem 0;
+}
+/* T&C page end */
+
+/* Heros start */
+.carousel{
+    margin-top: 7.87rem;    
+}
+
+.carousel-item img{
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img{
+        height: 100%;
+    }
+
+    .carousel{
+        margin-top: 3.7rem;    
+    }
+}
+
+.carousel-indicators [data-bs-target]{
+    height: 15px;
+    width: 15px;
+    background-color: #cc8200 !important;
+    border-radius: 100%;
+    opacity: 1 !important;
+    box-shadow:  0 0 5px rgb(94, 94, 94);
+    border: 0px solid white;
+}
+
+.carousel-indicators button{
+    height: 15px;
+    width: 15px;
+}
+
+.carousel-indicators [data-bs-target].active{
+    background-color: #ffffff !important;
+    opacity: 1 !important;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-indicators [data-bs-target]{
+        display: none;
+    }
+}
+
+.carousel-control-prev span, .carousel-control-next span{
+    background-color: #574a35;
+    border-radius: 50%;
+    padding: 15px;
+}
+/* Heros end */
+
+/* navigation start */
+.navbar-brand img{
+    width: 118.4px;
+    margin: 0;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    /* border-bottom: 3px solid #ffa300; */
+}
+
+/* top navber start*/
+    .TopNav{
+        justify-content: space-between;
+        width: 100%;
+        background-color: rgb(5, 5, 5);
+        border-bottom: 3px solid #ffa300;
+    }
+
+    .TopNav .container{
+        padding: 0;
+        margin: auto;
+    }
+
+    .navbar-brand{
+        padding-top: 0; 
+        padding-bottom: 0;
+    }
+
+    .TopNav .BtnA{
+        outline: none;
+        background-color: #ffa300;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    .TopNav button{
+        outline: none;
+        background-color: #ffa300;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .TopNav .BtnA:hover{
+        outline: none;
+        background-color: #ffbf00;
+        border: 1.5px solid #ffbf00;
+        color: rgb(14, 14, 14);
+    }
+
+    .TopNav .BtnA:active{
+        outline: none;
+        border: none;
+    }
+
+    .LoginBtn{
+        margin-top: 19px;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+        border: 1px solid black;
+    }
+
+    @media screen and (max-width: 767px) {
+        .TopNav .BtnA {
+            padding: 8px 6px;
+            font-size: 9px;
+            border-radius: 4px;
+        }
+
+        .LoginBtn {
+            margin-top: 15px;
+        }
+
+        .navbar-toggler {
+            margin-top: 8px !important;
+        }
+
+        .navbar-toggler-icon {
+            width: 3em;
+            height: 3em;
+        }
+
+        .navbar-brand img {
+            width: 93.4px;
+            margin: 0;
+        }
+
+        .TopNav button{
+            border-radius: 5px;
+            font-size: 10px;
+        }
+    }
+
+    @media screen and (max-width: 352px) {
+        .TopNav .BtnA {
+            font-size: 8px;
+        }
+    }
+
+    @media screen and (max-width: 372px) {
+        .registation{
+            display: none;
+        }
+
+        .TopNav .BtnA {
+            font-size: 11px;
+        }
+
+        .LoginBtn {
+            margin-top: 18px;
+        }
+    }
+/* top navber end*/
+
+/* bottom navber start*/
+    .BottomNav{
+        width: 100%;    
+        background: black;
+    }
+
+    .BottomNav .container ul{
+        justify-content: space-between;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .BottomNav .container ul li:not(:last-child) {
+        border-right: 1px solid #ffa300;
+        padding-right: 43px;
+    }
+
+    @media screen and (min-width: 1440px){
+        .BottomNav .container ul li:not(:last-child) {
+            padding-right: 71px;
+        }
+    }
+
+    @media screen and (max-width: 1023px){
+        .BottomNav .container ul li:not(:last-child) {
+            padding-right: 29px;
+        }
+    }
+
+    .active{
+        color: #ffaa17  !important;
+    }
+
+    .BottomNav .container ul li a{
+        line-height: 1;
+        color: #ffa300 !important;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .BottomNav .container ul li:hover .nav-link{
+        color: #fcf7ee !important;
+        padding-bottom: 4px;
+        border-bottom: 1px solid white;
+    }
+
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+        .BottomNav .container ul li a{
+            font-size: 15px;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .BottomNav .container ul li:not(:last-child) {
+            border: none;
+        }
+
+        .BottomNav{
+            padding-bottom: 0.1rem;
+            padding-left: 16px;
+        }
+
+        .BottomNav .container ul li a{
+            border-bottom: 1px solid white;
+        }
+    }
+/* bottom navber end*/
+
+/* navigationi end */
+
+
+/* footer start */
+footer{
+    padding: 2rem 0;
+    background-color: #000000;
+    border-Top: 3px solid #ffa300;
+    padding-top: 1.5rem;
+}
+
+footer div {
+   text-align: center;
+}
+
+footer div a{
+   color: rgb(161, 161, 161);
+   text-decoration: none;
+   font-weight: 600;
+}
+
+footer div a:hover{
+   color: rgb(247, 111, 0);
+   text-decoration: underline;
+   font-weight: 600;
+}
+
+ul{
+    list-style: none;
+}
+
+footer div ul,
+footer div ul li{
+   margin: 0;
+   padding: 0;
+   /* width: 157px; */
+   text-align: center;
+   margin: auto;
+}
+
+footer img{
+    width: 118.4px;
+    margin: auto;
+}
+
+footer .container{
+    text-align: center;
+}
+/* footer end */
+
+
+.container{
+    margin: auto;
+}
+
+/* login start */
+
+form label{
+    margin-bottom: .3rem;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.CencelBtn{
+    background-color: rgb(120 117 111) !important;
+    color: black;
+}
+
+.SingUpTitle{
+    padding: .5rem;
+    border-bottom: 0.1358695652vmax solid #ddd;
+}
+
+.SingUpTitle h4{
+    align-items: center;
+    margin-left: 17px;
+    padding-top: 17px;  
+}
+
+.SingUpTitle h4 span{
+    height: 20px;
+    width: 14px;
+    background-color: #2e3442;
+    border-radius: 10px;
+    color: #2e3441;
+    overflow: hidden;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+/* ForgetPassowerdFrom start */
+.ForgetPassowerdFrom{
+    margin: 5.2rem 0;
+}
+/* ForgetPassowerdFrom end */
+
+/* sing in start*/
+.SingINFrogot{
+    font-size: 16px;
+    color: rgb(120 117 111);
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    border-left: 2px solid;
+    padding-left: 3px;
+}
+
+.loin-a-fa:hover{
+    text-decoration: underline;
+}
+/* sing in end*/
+
+/* sing up start*/
+.SingUPINSingIN{
+    color: rgb(255 163 0);
+    width: 95px;
+    outline: none;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: white;
+    border: 1px solid rgb(255 163 0);
+    margin-right: .5rem;
+}
+
+/* sing up end*/
+
+/* ager code */
+.form-control{
+    font-size: .75rem;
+    margin-bottom: 0rem !important;
+}
+
+.LoginSign{
+    padding: 2rem 0;
+    margin-top: 8rem;
+    color: #000000;
+    width: 100%;
+}
+
+.LoginSign .container{
+    background: #ffffff;
+    border-radius: .5rem !important;
+    padding: 0;
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 60%);
+}
+
+.LoginSign .UnderFrom{
+    padding: 16px 2.5rem;
+}
+
+.LoginSign input{
+    margin-bottom: 1rem;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.BtnDiv{
+    margin-top: 1rem;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-fa{
+    background-color: rgb(255 163 0);
+    color: white;
+    width: 95px;
+    outline: none;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.btn-fa:not(:last-child){
+    margin-right: 1rem;
+}
+
+.btn-fa:hover{
+    background-color: rgb(212, 135, 1);
+    color: rgb(201, 201, 201);
+}
+
+.remember-fa{
+    font-size: 16px;
+    margin-top: -.2rem;
+    color: rgb(179 179 179);
+}
+
+.singin-a-fa{
+    display: block;
+    margin-top: 1rem;
+}
+
+.sin-bt-fa{
+    background-color: rgb(217 154 43);
+}
+
+.phonenumber{
+    width: 100%;
+    display: flex;
+    border: 1px solid rgb(82, 82, 82);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border-radius: 5px !important;
+}
+
+.phonenumber span{
+    width: 60px;
+    text-align: center;
+    border-right: 1px solid rgb(82, 82, 82);
+    background: white;
+    padding: 5px;
+}
+
+.phonenumber input{
+    border: none;
+    margin-bottom: 0 !important;
+    border-radius: 0 !important;
+}
+
+
+/* last mobo update */
+@media screen and (max-width: 767px) {
+    .LoginSign{
+        padding: 1.8rem 16px;
+        margin-top: 4rem;
+    }    
+}
+
+@media screen and (max-width: 322px) {
+    .btn-fa:not(:last-child){
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    .SingINFrogot{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+/* input mobile */
+.MobileInput select{
+    width: 100px;
+    margin-right: .5rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* login end */
