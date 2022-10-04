@@ -153,7 +153,7 @@
     .BottomNav .container ul li a{
         line-height: 1;
         color: #ffa300 !important;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 600;
     }
 
@@ -161,6 +161,12 @@
         color: #fcf7ee !important;
         padding-bottom: 4px;
         border-bottom: 1px solid white;
+    }
+
+    @media screen and (max-width: 1023px) and (min-width: 768px) {
+        .BottomNav .container ul li a{
+            font-size: 15px;
+        }
     }
 
     @media screen and (max-width: 767px) {

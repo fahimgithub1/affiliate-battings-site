@@ -1,45 +1,3 @@
-
-/* bottom navber start*/
-    .BottomNav{
-        width: 100%;    
-        background: black;
-    }
-
-    .BottomNav .container ul{
-        justify-content: space-between;
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .BottomNav .container ul li:not(:last-child) {
-        border-right: 1px solid #ffa300;
-        padding-right: 25px;
-    }
-
-    .active{
-        color: #ffaa17  !important;
-    }
-
-    .BottomNav .container ul li a{
-        line-height: 1;
-        color: #ffa300 !important;
-        font-size: 16px;
-        font-weight: 600;
-    }
-
-    .BottomNav .container ul li:hover .nav-link{
-        color: #fcf7ee !important;
-        padding-bottom: 4px;
-        border-bottom: 1px solid white;
-    }
-
-    @media screen and (max-width: 767px) {
-        .BottomNav .container ul li:not(:last-child) {
-            border: none;
-        }
-    }
-/* bottom navber end*/
-
 /* why affilates start */
 .WhyAffilates{
     padding: 2rem 0;
@@ -75,6 +33,14 @@
     width: 250px;
     margin: auto;
     margin-bottom: 1.5rem !important; 
+}
+
+.COMMISSION ul{
+    list-style: disc;
+}
+
+.COMMISSION ul li{
+    margin-bottom: .5rem;
 }
 
 .COMMISSION h3{
@@ -191,4 +157,3 @@
     }
 }
 /* PRODUCTS end */
-
