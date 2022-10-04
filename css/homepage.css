@@ -616,7 +616,6 @@ ol li ol li ol li {
     .BottomNav .container ul li:hover .nav-link{
         color: #fcf7ee !important;
         padding-bottom: 4px;
-        border-bottom: 1px solid white;
     }
 
     @media screen and (max-width: 1023px) and (min-width: 768px) {
@@ -633,10 +632,6 @@ ol li ol li ol li {
         .BottomNav{
             padding-bottom: 0.1rem;
             padding-left: 16px;
-        }
-
-        .BottomNav .container ul li a{
-            border-bottom: 1px solid white;
         }
     }
 /* bottom navber end*/
