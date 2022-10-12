@@ -50,9 +50,11 @@
 
 .COMMISSION h3{
     text-align: center;
+    background-color: #ffa300;
     border-radius: 0 20px 0 20px;
     padding: 6px 12px;
     color: rgb(32 32 31);
+    border: 1px solid rgb(173, 129, 87);
 }
 
 .COMMISSION ul{
@@ -661,8 +663,16 @@ footer div a:hover{
    font-weight: 600;
 }
 
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 ul{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer div ul,
@@ -671,12 +681,52 @@ footer div ul li{
    padding: 0;
    /* width: 157px; */
    text-align: center;
-   margin: auto;
+}
+
+footer div ul{
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    footer div ul{
+        text-align: left;
+        justify-content: center;
+    }  
+
+    footer div ul li{
+       margin-right: 1.2rem;
+    }
+}
+
+footer div ul li{
+   margin-right: .8rem;
+   justify-content: space-between;
 }
 
 footer img{
     width: 118.4px;
     margin: auto;
+}
+
+.PageList{
+    padding: 24px 16px;
+}
+
+@media screen and (max-width: 1199px) {
+    .PageList{
+        padding: 13px 16px;
+    }    
+}
+
+@media screen and (max-width: 504px) {
+    footer .container{
+        flex: none;
+        display: block;
+    }
 }
 
 footer .container{
